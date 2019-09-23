@@ -1,37 +1,32 @@
-.label {
-
-    display: inline-block;  
-            
-  background-color: #f2f2f2;
-  width: 360px;
-  border: 5px solid #76b852;
-  padding: 45px ;
+.cuadro {
+    
+  display: inline-block;            
+  width: 360px; 
+  background: white;
+  box-sizing: border-box; 
+  padding: 45px;
+  margin: 0 auto;
   margin-left: 400px;
   margin-top: 150px;
   
-
 }
 
 .comun {
 
-        width: 90%;
+        width: 100%;
         height: 46px;
-        padding-left: 15px;
-        margin: 15px;
+        box-sizing: border-box;
 }
 
+.input {
 
+             background: #f2f2f2;
+             margin-bottom: 15px;
+}
 
 .button {  
     
-  width: 95%;
-  height: 46px;  
   background-color: #4CAF50;
-  color: white;
-  padding: 15px;
-  text-align: center;
-  font-size: 16px;
-  margin: 15px;
-        
+    color: white;       
 }
 
